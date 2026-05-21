@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+/* NAVIGATION BAR SECTION */
+
+.container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color:#3E2723 ;
+}
+.container img {
+    width: 50px;
+    height: 50px;
+   margin: 10px 10px;
+}
+.container h1 {
+    color: white;
+}
+
+.menubtn {
+    display: none;
+}
+
+.sub-container {
+     margin-left: auto;
+     display: flex;
+     align-items: center;  
+}
+.sub-container ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.sub-container ul li {
+    margin: 0 20px;
+}
+
+.sub-container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+}
+.sub-container ul li a:hover {
+    background-color: #EAEAEA;
+    color: black;      
+}
+
+/* HOME SECTION*/
+
+.image-hero {
+    min-height: 75vh;
+    background-image: url("../images/coffee.jpg");
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.hero-script {
+    width: 50%;
+    margin: 20px; 
+}
+
+.hero-script h2 {
+    font-size: 60px;
+    margin: 20px;
+    color: white;
+}
+
+.hero-script p {
+    font-size: 25px;
+    margin: 20px;
+    color: white;
+}
+
+.homebtn {
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.homebtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: white;
+   text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 25px;
+    padding: 20px;
+}
+
+footer p a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+
+    /*NAVIGATION BAR SECTION */
+
+    .menubtn {
+        font-size: 35px;
+        display: block;
+        color: white;
+         margin-left: auto;
+         padding: 20px;
+         cursor: pointer;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .container {     
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+    .sub-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .sub-container ul {
+        flex-direction: column;
+    }
+    .sub-container ul li {
+        margin: 20px;
+    }
+
+    /* HOME SECTION */
+    
+    .image-hero {
+        background-position-x: left;
+    }
+    .hero-script {
+        width: 70%;
+        text-align: center;
+    }
+
+    .hero-script h2 {
+        font-size: 30px;
+    }
+
+    .hero-script p {
+        font-size: 20px;
+    }
+
+    /*FOOTER SECTION */
+
+    footer {
+        text-align: center;
+    }
+    
+    footer p {
+        font-size: 20px;
+    }
+
+    footer p a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*NAVIGATION BAR SECTION */
+
+    .menubtn {
+        font-size: 35px;
+        display: block;
+        color: white;
+         margin-left: auto;
+         padding: 20px;
+         cursor: pointer;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .container {     
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+    .sub-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .sub-container ul {
+        flex-direction: column;
+    }
+    .sub-container ul li {
+        margin: 20px;
+    }
+
+    /* HOME SECTION */
+    
+    .image-hero {
+        background-position-x: left;
+    }
+    .hero-script {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-script h2 {
+        font-size: 30px;
+    }
+
+    .hero-script p {
+        font-size: 20px;
+    }
+
+    /*FOOTER SECTION */
+
+    footer {
+        text-align: center;
+    }
+    
+    footer p {
+        font-size: 20px;
+    }
+
+    footer p a {
+        font-size: 20px;
+    }
+}
