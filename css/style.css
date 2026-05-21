@@ -195,7 +195,7 @@ footer p a{
     /*NAVIGATION BAR SECTION */
 
     .menubtn {
-        font-size: 35px;
+        font-size: 30px;
         display: block;
         color: white;
          margin-left: auto;
@@ -215,7 +215,7 @@ footer p a{
     }
 
     .container h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .sub-container {
         width: 100%;
