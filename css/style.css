@@ -196,7 +196,7 @@ footer p a{
 
     .menubtn {
         font-size: 30px;
-        display: block;
+        display: inline-block;
         color: white;
          margin-left: auto;
          padding: 20px;
